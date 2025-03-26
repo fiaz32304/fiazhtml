@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1>JavaScript Objects</h1>
+<h2>Object Methods</h2>
+<p>store property value</p>
+
+<p id="demo"></p>
+
+<script>
+const person = {
+  firstName: "Fiaz ",
+  lastName: "Ahmad",
+  id: 32304,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+document.getElementById("demo").innerHTML = person.fullName();
+</script>
+</body>
+</html>
