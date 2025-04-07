@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1>java script</h1>
+        <p>class java script</p>
+        <p id="demo"></p>
+        <Script>
+            class laptop{
+                constructor(name,genration,color){
+                    this.name=name;
+                    this.generation=genration;
+                    this.color=color;
+                }
+            }
+            const mylaptop1=new laptop("hp","core i7 10gen","gray");
+            const mylaptop2=new laptop("dell","core i5 6gen","black");
+            const mylaptop3=new laptop("toshiba","core i5 5gen","gray");
+            document.getElementById("demo").innerHTML= mylaptop1.name + " " +mylaptop1.generation + "<br>"+mylaptop3.color + "<br>"+mylaptop2.color;
+        </Script>
+    </body>
+</html>
